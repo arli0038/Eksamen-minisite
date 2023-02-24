@@ -1,0 +1,106 @@
+/* Navbar */
+/* Styling for logoet i navbar */
+.navbar-brand img {
+  height: 50px; /* Højden på logoet */
+  width: auto; /* Skalerer bredden automatisk, så det forbliver proportionalt */
+}
+
+/* Centrerer elementer i menuen */
+.navbar-nav {
+  margin: auto;
+}
+
+/* Indstiller marginen mellem menuelementer */
+.navbar-nav li {
+  margin: 0 20px;
+}
+
+/* Placerer logoet i det øverste venstre hjørne i navbar */
+.navbar-brand {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+/* Ændrer farven på navbar */
+.navbar {
+  background-color: rgb(89, 84, 81);
+}
+
+.full-height {
+  height: 70vh;
+}
+
+.mask {
+  height: 70vh;
+}
+
+/* footer */
+/* Styling for logoet i footer */
+.footer-brand img {
+  height: 50px; /* Højden på logoet */
+  width: auto; /* Skalerer bredden automatisk, så det forbliver proportionalt */
+}
+
+/* Centrerer indholdet i footer-container */
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+}
+
+/* Indstiller marginen mellem kolonner */
+.footer-row > div[class^="col-"] {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Indstiller marginen mellem rækker */
+.footer-row:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+/* Styling for bundteksten */
+.footer > .text-center {
+  color: #fff;
+  font-size: 14px;
+}
+
+/* Placerer logoet i det øverste venstre hjørne i footer */
+.footer-brand {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: rgb(244, 152, 00);
+  text-decoration: underline;
+}
+
+.text-uppercase {
+  color: rgb(244, 152, 00);
+}
+
+.fa-facebook-official:hover{
+  transform: translateY(-2px);
+  color: rgb(244, 152, 00);
+}
+
+.fa-instagram:hover{
+  transform: translateY(-2px);
+  color: rgb(244, 152, 00);
+}
+
+.fa-youtube-play:hover{
+  transform: translateY(-2px);
+  color: rgb(244, 152, 00);
+}
+
+
+
